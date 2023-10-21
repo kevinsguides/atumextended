@@ -1,12 +1,14 @@
-@media (prefers-color-scheme: dark){
 
-    body.admin {
+
+    &{
         background-color: var(--template-bg-dark-5);
+        color: black;
+        
     }
 
-    :root{
-        
-        --hue: 214;
+    &.admin-site{
+        --template-link-color: #2a69b8;
+        --body-color: black;
     --template-bg-light: #f0f4fb;
     --template-text-dark: #495057;
     --template-text-light: #ffffff;
@@ -97,8 +99,7 @@
         --body-font-size: 1rem;
         --body-font-weight: 400;
         --body-line-height: 1.5;
-        --body-color: #212529;
-        --body-color-rgb: 33,37,41;
+
         --body-bg: #fff;
         --body-bg-rgb: 255,255,255;
         --emphasis-color: #000;
@@ -257,6 +258,9 @@
     .sidebar-nav li a {
         color: var(--template-text-dark);
     }
+    .sidebar-nav li.active a, .sidebar-nav li.item:hover a {
+        color: var(--template-text-light);
+    }
 
     .media-browser-item{
         background: var(--template-bg-dark-3);
@@ -319,4 +323,18 @@
         border: 1px solid var(--template-bg-dark-20);
         color: var(--template-text-dark);
     }
-}
+
+
+
+    .com_users.view-methods .com-users-methods-list-method .content .com-users-methods-list-method-header, .com_users.view-user .com-users-methods-list-method .content .com-users-methods-list-method-header, .content .card-header, .content .com_users.view-methods .com-users-methods-list-method .com-users-methods-list-method-header, .content .com_users.view-user .com-users-methods-list-method .com-users-methods-list-method-header {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: var(--card-bg);
+        color: var(--template-bg-dark);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        font-weight: 700;
+        padding: 1rem 1rem 0.75rem;
+    }

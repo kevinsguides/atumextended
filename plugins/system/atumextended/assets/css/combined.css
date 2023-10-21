@@ -1,0 +1,587 @@
+.extended-dark-theme {
+  background-color: var(--template-bg-dark-90);
+  color: white;
+}
+.extended-dark-theme .com-apps-container .grid-container .card:hover, .extended-dark-theme .com-apps-container .grid-container .com_users.view-methods .com-users-methods-list-method:hover, .extended-dark-theme .com-apps-container .grid-container .com_users.view-user .com-users-methods-list-method:hover, .extended-dark-theme .com_users.view-methods .com-apps-container .grid-container .com-users-methods-list-method:hover, .extended-dark-theme .com_users.view-user .com-apps-container .grid-container .com-users-methods-list-method:hover {
+  background-color: var(--gray-800);
+}
+.extended-dark-theme.admin-site {
+  --body-color:#dee2e6;
+  --body-color-rgb: 222,226,230;
+  --body-bg: #161718;
+  --body-bg-rgb: 33,37,41;
+  --emphasis-color: #fff;
+  --emphasis-color-rgb: 255,255,255;
+  --secondary-color: rgba(222,226,230,.75);
+  --secondary-color-rgb: 222,226,230;
+  --secondary-bg: #343a40;
+  --secondary-bg-rgb: 52,58,64;
+  --tertiary-color: rgba(222,226,230,.5);
+  --tertiary-color-rgb: 222,226,230;
+  --tertiary-bg: #2b3035;
+  --tertiary-bg-rgb: 43,48,53;
+  --primary-text-emphasis: #7fa5d4;
+  --secondary-text-emphasis: #a3a8ad;
+  --success-text-emphasis: #8fb198;
+  --info-text-emphasis: #7fa5d4;
+  --warning-text-emphasis: #ffd372;
+  --danger-text-emphasis: #dc7e7d;
+  --light-text-emphasis: #f8f9fa;
+  --dark-text-emphasis: #dee2e6;
+  --primary-bg-subtle: #081525;
+  --secondary-bg-subtle: #141618;
+  --success-bg-subtle: #0e1911;
+  --info-bg-subtle: #081525;
+  --warning-bg-subtle: #332404;
+  --danger-bg-subtle: #270808;
+  --light-bg-subtle: #343a40;
+  --dark-bg-subtle: #1a1d20;
+  --primary-border-subtle: #193f6e;
+  --secondary-border-subtle: #3d4247;
+  --success-border-subtle: #294b32;
+  --info-border-subtle: #193f6e;
+  --warning-border-subtle: #996d0c;
+  --danger-border-subtle: #761817;
+  --light-border-subtle: #495057;
+  --dark-border-subtle: #343a40;
+  --heading-color: white;
+  --link-color: #7fa5d4;
+  --link-hover-color: #6b9edd;
+  --link-color-rgb: 127,165,212;
+  --link-hover-color-rgb: 107,158,221;
+  --code-color: #d7488b;
+  --highlight-color: #dee2e6;
+  --highlight-bg: #664808;
+  --border-color: #495057;
+  --border-color-translucent: hsla(0,0%,100%,.15);
+  --form-valid-color: #8fb198;
+  --form-valid-border-color: #8fb198;
+  --form-invalid-color: #dc7e7d;
+  --form-invalid-border-color: #dc7e7d;
+  --template-quickicon-color: white;
+  color-scheme: dark;
+  --subhead-btn-accent:var(--template-bg-dark-80);
+}
+.extended-dark-theme .quick-icons .quickicon a {
+  color: white;
+}
+.extended-dark-theme .quick-icons .quickicon a.success {
+  --text-color: white;
+  --bg-color: #264e26;
+  --icon-color: #f1f1f1;
+  --bg-color-hvr: var(--success);
+}
+.extended-dark-theme .custom-select, .extended-dark-theme .form-select {
+  --form-select-bg-img:url(../images/select-bg-dark.svg) ;
+}
+.extended-dark-theme .form-switch .form-check-input:not(:checked):not(:focus) {
+  --form-switch-bg:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='rgba(255, 255, 255, 0.25)'/%3E%3C/svg%3E") ;
+}
+.extended-dark-theme .navbar-toggler-icon {
+  --navbar-toggler-icon-bg:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 0.55)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") ;
+}
+.extended-dark-theme .accordion-button:after {
+  --accordion-btn-icon:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237fa5d4'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+  --accordion-btn-active-icon: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%237fa5d4'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E") ;
+}
+.extended-dark-theme .btn-close {
+  -webkit-filter: var(--btn-close-white-filter);
+  filter: var(--btn-close-white-filter);
+}
+.extended-dark-theme .carousel .carousel-control-next-icon, .extended-dark-theme .carousel .carousel-control-prev-icon {
+  -webkit-filter: invert(1) grayscale(100);
+  filter: invert(1) grayscale(100);
+}
+.extended-dark-theme .carousel .carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+.extended-dark-theme .carousel .carousel-caption {
+  color: #000;
+}
+.extended-dark-theme body.admin {
+  background-color: var(--template-bg-dark-90);
+}
+.extended-dark-theme .com_users.view-methods .com-users-methods-list-method .com-users-methods-list-method-info, .extended-dark-theme .com_users.view-user .com-users-methods-list-method .com-users-methods-list-method-info, .extended-dark-theme .text-muted {
+  color: var(--template-text-light) !important;
+}
+.extended-dark-theme details {
+  background: var(--template-bg-dark-90);
+}
+.extended-dark-theme .com_users.view-methods .com-users-methods-list-method .content .com-users-methods-list-method-header, .extended-dark-theme .com_users.view-user .com-users-methods-list-method .content .com-users-methods-list-method-header, .extended-dark-theme .content .card-header, .extended-dark-theme .content .com_users.view-methods .com-users-methods-list-method .com-users-methods-list-method-header, .extended-dark-theme .content .com_users.view-user .com-users-methods-list-method .com-users-methods-list-method-header {
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+.extended-dark-theme .custom-select-success.custom-select option, .extended-dark-theme .form-select-success.custom-select option, .extended-dark-theme .form-select.custom-select-success option, .extended-dark-theme .form-select.form-select-success option {
+  background-color: var(--gray-800);
+}
+.extended-dark-theme .custom-select-danger.custom-select option, .extended-dark-theme .form-select-danger.custom-select option, .extended-dark-theme .form-select.custom-select-danger option, .extended-dark-theme .form-select.form-select-danger option {
+  background-color: var(--gray-800);
+}
+.extended-dark-theme .custom-select:disabled, .extended-dark-theme .form-select:disabled {
+  background-color: var(--gray-800);
+}
+.extended-dark-theme .custom-select option, .extended-dark-theme .form-select option {
+  color: var(--template-text-light);
+}
+.extended-dark-theme .custom-select option:disabled, .extended-dark-theme .form-select option:disabled {
+  background-color: var(--template-bg-dark-90);
+}
+.extended-dark-theme .custom-select, .extended-dark-theme .form-select {
+  background: var(--template-bg-dark) url("../images/select-bg-dark.svg?v=97d2dc") no-repeat right center/max(100%, 116rem);
+}
+.extended-dark-theme .accordion .list-group-item {
+  --list-group-bg:var(--gray-800) ;
+}
+.extended-dark-theme .dropdown-item:focus, .extended-dark-theme .dropdown-item:hover {
+  --dropdown-link-hover-bg:var(--gray-700);
+  --dropdown-link-hover-color: var(--body-color) ;
+}
+.extended-dark-theme .dropdown-item {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
+}
+.extended-dark-theme.admin-site {
+  --calendar-week-bg:var(--gray-700);
+  --calendar-buttons-color: var(--template-bg-dark-20);
+  --calendar-select-bg-url: url(../../images/calendar-select-bg-dark.svg);
+  --calendar-select-bg-color: var(--template-bg-dark) ;
+}
+.extended-dark-theme .form-control:disabled, .extended-dark-theme .form-control[readonly] {
+  background-color: var(--gray-800);
+}
+.extended-dark-theme .options-form, .extended-dark-theme .options-form > legend {
+  color: var(--template-text-light);
+}
+.extended-dark-theme label {
+  color: var(--white);
+}
+.extended-dark-theme .quick-icons .quickicon a .quickicon-amount {
+  color: var(--template-bg-dark-80);
+}
+.extended-dark-theme .quick-icons .quickicon {
+  --bg-color:var(--template-bg-dark-80);
+  --bg-color-hvr: var(--template-bg-dark-65) ;
+}
+.extended-dark-theme .quick-icons .quickicon-linkadd a > * {
+  color: var(--template-bg-dark-80);
+}
+.extended-dark-theme .shepherd-element.shepherd-has-title[data-popper-placement^=bottom] > .shepherd-arrow:before, .extended-dark-theme .shepherd-has-title .shepherd-content .shepherd-header {
+  background-color: var(--dark-bg-subtle) !important;
+}
+.extended-dark-theme .shepherd-has-title .shepherd-content .shepherd-cancel-icon:hover {
+  -webkit-filter: invert(1) grayscale(100%) brightness(200%) !important;
+  filter: invert(1) grayscale(100%) brightness(200%) !important;
+}
+.extended-dark-theme .sidebar-nav li a {
+  color: var(--template-text-light);
+}
+.extended-dark-theme .subhead .btn.btn-info {
+  --subhead-btn-accent:var(--template-bg-dark-80) ;
+}
+.extended-dark-theme .subhead .btn.btn-success {
+  --subhead-btn-accent: var(--success);
+}
+.extended-dark-theme .subhead .btn.btn-danger {
+  --subhead-btn-accent: var(--danger);
+}
+.extended-dark-theme .subhead .btn.btn-primary {
+  --subhead-btn-accent: var(--template-link-color);
+}
+.extended-dark-theme .subhead .btn.btn-info:active, .extended-dark-theme .subhead .btn.btn-info:focus, .extended-dark-theme .subhead .btn.btn-info:hover {
+  --subhead-btn-accent: var(--template-bg-dark-60) ;
+}
+.extended-dark-theme .subhead .btn.btn-action {
+  --subhead-btn-accent:var(--template-bg-light) ;
+}
+.extended-dark-theme .subhead .btn.btn-action:active, .extended-dark-theme .subhead .btn.btn-action:focus, .extended-dark-theme .subhead .btn.btn-action:hover {
+  --subhead-btn-accent: var(--template-bg-dark-60) ;
+}
+.extended-dark-theme .subhead .btn {
+  --subhead-btn-accent:var(--template-text-light);
+  color: var(--template-text-light);
+}
+.extended-dark-theme .subhead {
+  background-color: var(--body-bg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--body-bg)), to(var(--dark-bg)));
+  background-image: linear-gradient(var(--body-bg), var(--dark-bg));
+}
+.extended-dark-theme .subhead .btn:not([disabled]):active, .extended-dark-theme .subhead .btn:not([disabled]):focus, .extended-dark-theme .subhead .btn:not([disabled]):hover {
+  background-color: var(--subhead-btn-accent);
+  border-color: var(--subhead-btn-accent);
+  color: hsla(0, 0%, 100%, 0.9);
+}
+.extended-dark-theme .treeselect .nav-header {
+  color: var(--body-color);
+}
+.extended-dark-theme .com_cpanel .module-actions > * {
+  color: var(--body-color);
+}
+.extended-dark-theme.admin-site {
+  --com-media-manager-overlay-bg:var(--template-bg-dark-90);
+  --com-media-manager-infobar-dt-color: hsla(0,0%,100%,.54);
+  --com-media-manager-overlay-header-bg: var(--template-bg-dark-80);
+  --com-media-manager-disk-name-color: var(--template-text-light) ;
+}
+.extended-dark-theme .new-modules {
+  --bg-color:var(--template-bg-dark-80);
+  --bg-color-hvr: var(--template-bg-dark-65);
+  --icon-color: var(--template-bg-dark-80);
+  --icon-color-hvr: var(--template-quickicon-color) ;
+}
+.extended-dark-theme .new-tasks {
+  --bg-color:var(--template-bg-dark-80);
+  --bg-color-hvr: var(--template-bg-dark-65);
+  --icon-color: var(--template-bg-dark-80);
+  --icon-color-hvr: var(--template-quickicon-color) ;
+}
+.extended-dark-theme .com_templates .menu-assignment .menu-links-block {
+  --heading-color:var(--body-color) ;
+}
+.extended-dark-theme .com_users.view-methods #com-users-methods-reset-container, .extended-dark-theme .com_users.view-user #com-users-methods-reset-container {
+  background-color: var(--dark-bg-subtle);
+}
+.extended-dark-theme .com_users.view-methods .com-users-methods-list-method:not(.com-users-methods-list-method-active) .com-users-methods-list-method-header, .extended-dark-theme .com_users.view-user .com-users-methods-list-method:not(.com-users-methods-list-method-active) .com-users-methods-list-method-header {
+  background-color: var(--dark-bg-subtle);
+}
+.extended-dark-theme .com_users.view-methods .com-users-methods-list-method .com-users-methods-list-method-image, .extended-dark-theme .com_users.view-user .com-users-methods-list-method .com-users-methods-list-method-image {
+  background-color: var(--dark-bg-subtle);
+}
+.extended-dark-theme .com-apps-container .grid-container .card:hover, .extended-dark-theme .com-apps-container .grid-container .com_users.view-methods .com-users-methods-list-method:hover, .extended-dark-theme .com-apps-container .grid-container .com_users.view-user .com-users-methods-list-method:hover, .extended-dark-theme .com_users.view-methods .com-apps-container .grid-container .com-users-methods-list-method:hover, .extended-dark-theme .com_users.view-user .com-apps-container .grid-container .com-users-methods-list-method:hover {
+  background-color: var(--gray-800);
+}
+.extended-dark-theme.admin-site {
+  --template-quickicon-color:var(--template-bg-dark-5);
+  --focus-shadow: var(--gray-800) ;
+}
+.extended-dark-theme .choices[data-type*=select-multiple] .choices__inner, .extended-dark-theme .choices[data-type*=select-one] .choices__inner {
+  background: url(../images/select-bg-dark.svg?v=97d2dc) no-repeat 100%/116rem;
+  background-color: var(--template-bg-dark);
+}
+.extended-dark-theme joomla-tab > div[role=tablist] > button[role=tab][aria-expanded=true] {
+  background: var(--template-bg-dark-60);
+  color: white;
+}
+.extended-dark-theme .com_users.view-methods .com-users-methods-list-method .content .com-users-methods-list-method-header, .extended-dark-theme .com_users.view-user .com-users-methods-list-method .content .com-users-methods-list-method-header, .extended-dark-theme .content .card-header, .extended-dark-theme .content .com_users.view-methods .com-users-methods-list-method .com-users-methods-list-method-header, .extended-dark-theme .content .com_users.view-user .com-users-methods-list-method .com-users-methods-list-method-header {
+  background-color: var(--body-bg);
+  color: white;
+}
+
+.extended-light-theme {
+  background-color: var(--template-bg-dark-5);
+  color: black;
+}
+.extended-light-theme.admin-site {
+  --template-link-color: #2a69b8;
+  --body-color: black;
+  --template-bg-light: #f0f4fb;
+  --template-text-dark: #495057;
+  --template-text-light: #ffffff;
+  --link-color: #2a69b8 !important;
+  --link-color-rgb: 42,105,184 !important;
+  --template-special-color: #001b4c;
+  --card-bg: hsla(0,0%,100%,.7);
+  --card-color: var(--template-bg-dark-60);
+  --bluegray: #b2bfcd;
+  --lightbluegray: #f6f9fc;
+  --toolbar-bg: #fff;
+  --success-border: var(--success);
+  --info-border: var(--info);
+  --warning-border: var(--warning);
+  --danger-border: var(--danger);
+  --login-main-bg: #0b1c32;
+  --border: #cdcdcd;
+  --white: #fff;
+  --white-offset: #fefefe;
+  --focus: #39f;
+  --focus-shadow: #eaeaea;
+  --toggle-color: #fff;
+  --gray-100: #f8f9fa;
+  --gray-200: #e8e8e8;
+  --gray-300: #dee2e6;
+  --gray-400: #cdcdcd;
+  --gray-500: #adb5bd;
+  --gray-600: #666e76;
+  --gray-700: #495057;
+  --gray-800: #343a40;
+  --gray-900: #212529;
+  --primary: #132f53;
+  --secondary: #495057;
+  --success: #457d54;
+  --info: #2a69b8;
+  --warning: #ffb514;
+  --danger: #c52827;
+  --light: #f8f9fa;
+  --dark: #212529;
+  --action: #132f53;
+  --error: #3b0d0c;
+  --primary-rgb: 19,47,83;
+  --secondary-rgb: 73,80,87;
+  --success-rgb: 69,125,84;
+  --info-rgb: 42,105,184;
+  --warning-rgb: 255,181,20;
+  --danger-rgb: 197,40,39;
+  --light-rgb: 248,249,250;
+  --dark-rgb: 33,37,41;
+  --action-rgb: 19,47,83;
+  --error-rgb: 59,13,12;
+  --action-text-emphasis: #081321;
+  --error-text-emphasis: #180505;
+  --primary-text-emphasis: #112a49;
+  --secondary-text-emphasis: #292c2f;
+  --success-text-emphasis: #1c3222;
+  --info-text-emphasis: #112a4a;
+  --warning-text-emphasis: #664808;
+  --danger-text-emphasis: #4f1010;
+  --light-text-emphasis: #495057;
+  --dark-text-emphasis: #495057;
+  --action-bg-subtle: #d0d5dd;
+  --error-bg-subtle: #d8cfce;
+  --primary-bg-subtle: #d4e1f1;
+  --secondary-bg-subtle: #e0e2e4;
+  --success-bg-subtle: #dae5dd;
+  --info-bg-subtle: #d4e1f1;
+  --warning-bg-subtle: #fff0d0;
+  --danger-bg-subtle: #f3d4d4;
+  --light-bg-subtle: #fcfcfd;
+  --dark-bg-subtle: #cdcdcd;
+  --action-border-subtle: #a1acba;
+  --error-border-subtle: #b19e9e;
+  --primary-border-subtle: #aac3e2;
+  --secondary-border-subtle: #c2c5c8;
+  --success-border-subtle: #b5cbbb;
+  --info-border-subtle: #aac3e3;
+  --warning-border-subtle: #ffe1a1;
+  --danger-border-subtle: #e8a9a9;
+  --light-border-subtle: #e8e8e8;
+  --dark-border-subtle: #adb5bd;
+  --white-rgb: 255,255,255;
+  --black-rgb: 0,0,0;
+  --font-sans-serif: "Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+  --gradient: linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0));
+  --body-font-family: var(--font-sans-serif);
+  --body-font-size: 1rem;
+  --body-font-weight: 400;
+  --body-line-height: 1.5;
+  --body-bg: #fff;
+  --body-bg-rgb: 255,255,255;
+  --emphasis-color: #000;
+  --emphasis-color-rgb: 0,0,0;
+  --secondary-color: rgba(33,37,41,.75);
+  --secondary-color-rgb: 33,37,41;
+  --secondary-bg: #e8e8e8;
+  --secondary-bg-rgb: 232,232,232;
+  --tertiary-color: rgba(33,37,41,.5);
+  --tertiary-color-rgb: 33,37,41;
+  --tertiary-bg: #f8f9fa;
+  --tertiary-bg-rgb: 248,249,250;
+  --heading-color: var(--template-bg-dark);
+  --link-color: #2a69b8;
+  --link-color-rgb: 42,105,184;
+  --link-decoration: none;
+  --link-hover-color: #173a65;
+  --link-hover-color-rgb: 23,58,101;
+  --code-color: #971250;
+  --highlight-color: #212529;
+  --highlight-bg: #fff0d0;
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: #dee2e6;
+  --border-color-translucent: rgba(0,0,0,.175);
+  --border-radius: 0.25rem;
+  --border-radius-sm: 0.2rem;
+  --border-radius-lg: 0.3rem;
+  --border-radius-xl: 0.3rem;
+  --border-radius-xxl: 2rem;
+  --border-radius-2xl: var(--border-radius-xxl);
+  --border-radius-pill: 50rem;
+  --box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+  --box-shadow-sm: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+  --box-shadow-lg: 0 1rem 3rem rgba(0,0,0,.175);
+  --box-shadow-inset: inset 0 1px 2px rgba(0,0,0,.075);
+  --focus-ring-width: 0.25rem;
+  --focus-ring-opacity: 0.25;
+  --focus-ring-color: rgba(42,105,183,.25);
+  --form-valid-color: #457d54;
+  --form-valid-border-color: #457d54;
+  --form-invalid-color: #c52827;
+  --form-invalid-border-color: #c52827;
+  --com-media-manager-overlay-header-bg: var(--template-bg-dark-5);
+  --com-media-manager-infobar-dt-color: rgba(0,0,0,.54);
+  --com-media-manager-content-bg: var(--body-bg);
+  --com-media-manager-overlay-bg: var(--template-bg-dark-3);
+  --com-media-manager-disk-name-color: var(--template-text-dark);
+  --calendar-bg: var(--body-bg);
+  --calendar-week-bg: #f4f4f4;
+  --calendar-buttons-color: #495057;
+  --calendar-select-bg-color: var(--template-bg-light);
+  --calendar-select-color: var(--body-color);
+  --template-quickicon-color: hsl(var(--hue),30%,40%);
+}
+.extended-light-theme .quick-icons .quickicon {
+  --template-quickicon-color: hsl(var(--hue),30%,40%);
+  --text-color: var(--template-quickicon-color);
+  --bg-color: hsl(var(--hue),60%,97%);
+  --icon-color: var(--template-quickicon-color);
+  --bg-color-hvr: var(--template-bg-dark);
+}
+.extended-light-theme .com_users.view-methods .com-users-methods-list-method .com-users-methods-list-method-info, .extended-light-theme .com_users.view-user .com-users-methods-list-method .com-users-methods-list-method-info, .extended-light-theme .text-muted {
+  color: var(--template-text-dark) !important;
+}
+.extended-light-theme .subhead .btn {
+  --subhead-btn-accent: var(--template-text-dark);
+  color: var(--template-text-dark);
+}
+.extended-light-theme .subhead .btn.btn-info {
+  --subhead-btn-accent: var(--template-bg-dark);
+}
+.extended-light-theme .subhead {
+  background: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--toolbar-bg)), to(var(--template-bg-dark-3)));
+  background-image: linear-gradient(var(--toolbar-bg), var(--template-bg-dark-3));
+}
+.extended-light-theme .custom-select, .extended-light-theme .form-select {
+  background: var(--template-bg-light) url(../images/select-bg.svg?v=5ebba0) no-repeat right center/max(100%, 116rem) !important;
+  cursor: pointer !important;
+  max-width: 100% !important;
+}
+.extended-light-theme .custom-select, .extended-light-theme .form-select {
+  --form-select-bg-img: url(../images/select-bg.svg) !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: var(--template-bg-light);
+  background-image: var(--form-select-bg-img), var(--form-select-bg-icon, none);
+  background-position: right 1rem center;
+  background-repeat: no-repeat;
+  background-size: max(100%, 116rem);
+  border: var(--border-width) solid var(--template-bg-dark-20);
+  border-radius: var(--border-radius);
+  color: var(--body-color);
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  width: 100%;
+}
+.extended-light-theme label {
+  color: #132f53;
+}
+.extended-light-theme .options-form > legend {
+  background-color: var(--body-bg);
+  color: var(--template-text-dark);
+}
+.extended-light-theme joomla-tab > div[role=tablist] > button {
+  color: black;
+}
+.extended-light-theme joomla-tab > div[role=tablist] > button[role=tab][aria-expanded=true] {
+  background: var(--template-bg-dark-3);
+  font-weight: 700;
+}
+.extended-light-theme joomla-tab > div[role=tablist] > button[role=tab]:focus, .extended-light-theme joomla-tab > div[role=tablist] > button[role=tab]:hover, .extended-light-theme joomla-tab > div[role=tablist] > button[role=tab][aria-expanded=true] {
+  border: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: var(--template-bg-dark-60);
+}
+.extended-light-theme details summary {
+  color: var(--template-link-color);
+}
+.extended-light-theme details {
+  background: var(--template-bg-dark-3);
+  border: 1px solid var(--template-bg-dark-10);
+}
+.extended-light-theme .sidebar-nav li a {
+  color: var(--template-text-dark);
+}
+.extended-light-theme .sidebar-nav li.active a, .extended-light-theme .sidebar-nav li.item:hover a {
+  color: var(--template-text-light);
+}
+.extended-light-theme .media-browser-item {
+  background: var(--template-bg-dark-3);
+  color: black;
+}
+.extended-light-theme .media-browser-actions.active .media-browser-actions-list a, .extended-light-theme .media-browser-actions.active .media-browser-actions-list button {
+  color: black;
+}
+.extended-light-theme .choices[data-type*=select-multiple] .choices__inner, .extended-light-theme .choices[data-type*=select-one] .choices__inner {
+  -webkit-padding-end: 3rem;
+  background: url(../images/select-bg.svg?v=5ebba0) no-repeat 100%/116rem;
+  background-color: var(--template-bg-light);
+  cursor: pointer;
+  padding-inline-end: 3rem;
+}
+.extended-light-theme .custom-select-danger.custom-select option, .extended-light-theme .form-select-danger.custom-select option, .extended-light-theme .form-select.custom-select-danger option, .extended-light-theme .form-select.form-select-danger option {
+  background-color: var(--white-offset);
+  color: var(--body-color);
+}
+.extended-light-theme .custom-select-success.custom-select option, .extended-light-theme .form-select-success.custom-select option, .extended-light-theme .form-select.custom-select-success option, .extended-light-theme .form-select.form-select-success option {
+  background-color: var(--white-offset);
+  color: var(--body-color);
+}
+.extended-light-theme .custom-select optgroup, .extended-light-theme .custom-select option, .extended-light-theme .form-select optgroup, .extended-light-theme .form-select option {
+  background-color: var(--body-bg);
+  color: var(--template-text-dark);
+}
+.extended-light-theme .choices__list--dropdown .choices__item--selectable.is-highlighted {
+  background-color: #f2f2f2;
+}
+.extended-light-theme .choices__list--dropdown .choices__item--selectable.is-highlighted[data-deletable] {
+  background-color: #f2f2f2;
+}
+.extended-light-theme .choices select {
+  color: black !important;
+}
+.extended-light-theme .choices input[type=text] {
+  color: black !important;
+}
+.extended-light-theme .form-control:disabled, .extended-light-theme .form-control[readonly] {
+  background-color: var(--gray-200);
+  opacity: 1;
+}
+.extended-light-theme .calendar-container .time td select {
+  background-color: var(--calendar-select-bg-color, #f0f4fb);
+  background-image: url("../images/select-bg.svg");
+}
+.extended-light-theme .options-form {
+  border: 1px solid var(--template-bg-dark-20);
+  color: var(--template-text-dark);
+}
+.extended-light-theme .com_users.view-methods .com-users-methods-list-method .content .com-users-methods-list-method-header, .extended-light-theme .com_users.view-user .com-users-methods-list-method .content .com-users-methods-list-method-header, .extended-light-theme .content .card-header, .extended-light-theme .content .com_users.view-methods .com-users-methods-list-method .com-users-methods-list-method-header, .extended-light-theme .content .com_users.view-user .com-users-methods-list-method .com-users-methods-list-method-header {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: var(--card-bg);
+  color: var(--template-bg-dark);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  padding: 1rem 1rem 0.75rem;
+}
+
+#atumx-colortoggle {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px 0 0 0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+#atumx-colortoggle i {
+  font-size: 30px;
+  color: #000;
+}
+
+/*# sourceMappingURL=combined.css.map */
