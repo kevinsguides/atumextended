@@ -43,4 +43,9 @@
 			</fieldset>
 		</fields>
 	</config>
+
+<updateservers>
+        <server type="extension" priority="1" name="atumextended">https://raw.githubusercontent.com/kevinsguides/atumextended/main/updateserver.xml</server>
+    </updateservers>
+
 </extension>
