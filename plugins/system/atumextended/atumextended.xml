@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" group="system" method="upgrade">
+	<name>plg_system_atumextended</name>
+	<author>Kevin Olson</author>
+	<creationDate>2023-10</creationDate>
+	<copyright>(C) 2024 Kevin Olson.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>kevin@kevinsguides.com</authorEmail>
+	<authorUrl>https://kevinsguides.com</authorUrl>
+	<version>3.0.0</version>
+	<description>PLG_SYSTEM_ATUMEXTENDED_DESC</description>
+	<namespace path="src">KevinsGuides\Plugin\System\AtumExtended</namespace>
+	<files>
+		<folder plugin="atumextended">services</folder>
+		<folder>src</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/plg_system_atumextended.ini</language>
+		<language tag="en-GB">language/en-GB/plg_system_atumextended.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
