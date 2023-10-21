@@ -1,0 +1,10 @@
+#ignore everything
+
+*
+!.gitignore
+!plugins
+plugins/*
+!plugins/system
+plugins/system/*
+!plugins/system/atumextended
+!plugins/system/atumextended/**
