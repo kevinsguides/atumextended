@@ -71,6 +71,12 @@
   --icon-color: #f1f1f1;
   --bg-color-hvr: var(--success);
 }
+.extended-dark-theme .quick-icons .quickicon a.danger, .extended-dark-theme .quick-icons .quickicon a.warning {
+  --text-color: var(--danger);
+  --bg-color: #5f3434;
+  --icon-color: #ce8484;
+  --bg-color-hvr: var(--danger);
+}
 .extended-dark-theme .custom-select, .extended-dark-theme .form-select {
   --form-select-bg-img:url(../images/select-bg-dark.svg) ;
 }

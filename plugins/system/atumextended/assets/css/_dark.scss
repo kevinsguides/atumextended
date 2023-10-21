@@ -78,6 +78,13 @@
     --bg-color-hvr: var(--success);
 }
 
+.quick-icons .quickicon a.danger, .quick-icons .quickicon a.warning {
+    --text-color: var(--danger);
+    --bg-color: #5f3434;
+    --icon-color: #ce8484;
+    --bg-color-hvr: var(--danger);
+}
+
 .custom-select,.form-select {
     --form-select-bg-img:url(../images/select-bg-dark.svg)
 }

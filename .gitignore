@@ -2,6 +2,7 @@
 
 *
 !.gitignore
+!updateserver.xml
 !README.md
 !plugins
 plugins/*

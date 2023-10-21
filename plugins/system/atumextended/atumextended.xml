@@ -7,12 +7,13 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>kevin@kevinsguides.com</authorEmail>
 	<authorUrl>https://kevinsguides.com</authorUrl>
-	<version>3.0.0</version>
+	<version>1.0.0</version>
 	<description>PLG_SYSTEM_ATUMEXTENDED_DESC</description>
 	<namespace path="src">KevinsGuides\Plugin\System\AtumExtended</namespace>
 	<files>
 		<folder plugin="atumextended">services</folder>
 		<folder>src</folder>
+		<folder>assets</folder>
 	</files>
 	<languages>
 		<language tag="en-GB">language/en-GB/plg_system_atumextended.ini</language>
@@ -32,6 +33,12 @@
 					<option value="dark">PLG_SYSTEM_ATUMEXTENDED_COLOR_MODE_FORCE_DARK</option>
 					<option value="light">PLG_SYSTEM_ATUMEXTENDED_COLOR_MODE_FORCE_LIGHT</option>
 				</field>
+
+				<field
+					name="leave_tip_note"
+					type="note"
+					label="PLG_SYSTEM_ATUMEXTENDED_LEAVE_A_TIP"
+					/>
 				
 			</fieldset>
 		</fields>
